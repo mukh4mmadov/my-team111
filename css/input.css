@@ -1,0 +1,64 @@
+/* TEXT AREA START */
+.input-form {
+  display: flex;
+  flex-direction: column;
+}
+.input-field {
+  border: none;
+  border-bottom: 0.1rem solid var(--white-color);
+  background-color: transparent;
+  width: 248px;
+  height: 42px;
+  padding-left: 1.4rem;
+  padding-bottom: 1.7rem;
+  padding-right: 8.1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.66em;
+  letter-spacing: -0.012rem;
+  color: var(--white-color);
+
+  &:focus {
+    outline: none;
+    border-bottom-color: var(--light-green);
+  }
+}
+
+/* TEXT AREA END */
+
+/* TEXT FIELD START */
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-left: 14px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.66em;
+  letter-spacing: -0.012rem;
+  color: var(--white-color);
+  opacity: 0.6;
+  margin-bottom: 3.3rem;
+}
+.input-area {
+  border: none;
+  border-bottom: 0.1rem solid var(--white-color);
+  background-color: var(--012-green);
+  width: 248px;
+  height: 25px;
+  padding-left: 1.4rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.66em;
+  letter-spacing: -0.012rem;
+  color: var(--white-color);
+
+  &:focus {
+    outline: none;
+    border-bottom-color: var(--light-green);
+  }
+}
+
+/* TEXT FIELD END */

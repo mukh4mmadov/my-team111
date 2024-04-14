@@ -1,0 +1,142 @@
+/* SECTION SERVICES STYLES END */
+/* .main {
+}
+.main__container {
+} */
+.services {
+  background-color: var(--012-green);
+  padding-top: 19.8rem;
+  padding-bottom: 14rem;
+  background-image: url("../images/bg-pattern-about-4.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right -100px;
+}
+.services__type {
+  display: flex;
+  gap: 12.5rem;
+}
+.type__text {
+  display: flex;
+  flex-direction: column;
+  width: 445px;
+  gap: 5.4rem;
+}
+.type__text_pink {
+  position: absolute;
+  top: 870px;
+  width: 50px;
+  height: 4px;
+  background-color: var(--pink-color);
+}
+.type__text_title {
+  width: 445px;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 1em;
+  color: var(--white-color);
+}
+.type__list {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.type__item {
+  display: flex;
+  gap: 2.3rem;
+}
+/* .type__img {
+} */
+.type__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.type__wrapper_title {
+  display: inline-block;
+  color: var(--pink-color);
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.55em;
+}
+.type__wrapper_description {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.66em;
+  color: var(--white-color);
+}
+/* SECTION SERVICES STYLES END */
+
+/* SECTION COMMENT STYLES START */
+
+.comment {
+  background-color: var(--darkk-green);
+  background-image: url("../images/bg-pattern-home-4-about-3.svg"),
+    url(../images/bg-pattern-home-5.svg);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+.comment__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5.6rem;
+  padding: 14rem 0;
+}
+.comment__title {
+  width: 932px;
+  font-size: 4.8rem;
+  line-height: 1em;
+  font-weight: 700;
+  text-align: center;
+  color: var(--white-color);
+}
+.comment__title span {
+  color: var(--light-green);
+}
+.comment__list {
+  display: flex;
+  gap: 3rem;
+  padding-bottom: 1.1rem;
+}
+.comment__item {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3.6rem;
+  gap: 2.4rem;
+  background-image: url("../images/icon-quotes.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.comment__text {
+  width: 350px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.66em;
+  text-align: center;
+  color: var(--white-color);
+}
+/* .comment__authors {
+} */
+.comment__authors_name {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.55em;
+  text-align: center;
+  color: var(--light-green);
+}
+.comment__authors_company {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.3rem;
+  line-height: 1.38em;
+  text-align: center;
+  color: var(--white-color);
+}
+.comment__authors_avatar {
+  border: 2px solid #c4fffe;
+  border-radius: 50%;
+  margin-left: 14.4rem;
+  margin-top: 3.2rem;
+}
+
+/* SECTION COMMENT STYLES END */

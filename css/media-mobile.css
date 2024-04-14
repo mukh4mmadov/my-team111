@@ -1,0 +1,164 @@
+@media (max-width: 475px) {
+  .sitenav {
+    display: none;
+  }
+  .header__btn {
+    display: none;
+  }
+
+  .header__btn_hamburger {
+    display: block;
+  }
+
+  .header-section {
+    padding-top: 4.8rem;
+  }
+
+  .container {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+
+  .header__title {
+    font-size: 4rem;
+    line-height: 1em;
+    text-align: center;
+    width: 327px;
+  }
+
+  .header__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__description {
+    font-size: 1.5rem;
+    line-height: 1.86em;
+    text-align: center;
+    width: 327px;
+  }
+
+  .header__section {
+    padding: 0;
+  }
+
+  /* MAIN START */
+
+  .type__text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .type__text_pink {
+    top: 620px;
+  }
+
+  .type__text_title {
+    width: 240px;
+    font-size: 3.2rem;
+    line-height: 1em;
+    text-align: left;
+  }
+
+  .type__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .type__wrapper_title {
+    text-align: center;
+  }
+
+  .type__wrapper_description {
+    text-align: center;
+  }
+
+  .services {
+    padding-bottom: 6.4rem;
+  }
+
+  .comment__title {
+    font-size: 3.2rem;
+    line-height: 1em;
+    text-align: center;
+    width: 327px;
+  }
+
+  .comment__authors_company {
+    margin-bottom: -0.8rem;
+  }
+
+  .footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  .wrapper__text {
+    text-align: center;
+    margin: 0;
+  }
+  /* 
+  .footer__contact-btn {
+    margin-bottom: 0.2rem;
+  } */
+
+  .footer__div {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .footer__sitenav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__nav_address {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  .footer__addres {
+    text-align: center;
+  }
+
+  .footer__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+  }
+  /* HAMBURGER */
+  /* 
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  nav ul.show {
+    display: flex;
+  }
+  
+  .header__btn_hamburger {
+    display: block;
+  }
+    nav {
+        background-color: rgb(62, 109, 149);
+    }
+} */
+  nav ul.show {
+    display: flex;
+  }
+
+  .header__btn_hamburger {
+    display: block;
+  }
+  nav {
+    background-color: rgb(62, 109, 149);
+  }
+}

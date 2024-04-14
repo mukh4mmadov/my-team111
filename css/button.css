@@ -1,0 +1,74 @@
+/* PRIMARY BUTTON STYLES */
+.primary-btn {
+  padding-top: 0.9rem;
+  padding-right: 3.3rem;
+  padding-bottom: 1.1rem;
+  padding-left: 3.2rem;
+  border: 2px solid var(--white-color);
+  background-color: var(--dark-green-color);
+  color: var(--white-color);
+  border-radius: 2.4rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.55em;
+
+  &:hover {
+    color: var(--012-green);
+    background-color: var(--white-color);
+  }
+
+  &:active {
+    border-color: var(--darkk-green);
+    background-color: var(--dark-green-color);
+    color: var(--darkk-green);
+  }
+}
+
+.primary-dark-btn {
+  padding-top: 0.9rem;
+  padding-right: 3.3rem;
+  padding-bottom: 1.2rem;
+  padding-left: 3.2rem;
+  border: 2px solid var(--012-green);
+  background-color: var(--white-color);
+  color: var(--012-green);
+  border-radius: 2.4rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.55em;
+
+  &:hover {
+    color: var(--white-color);
+    background-color: var(--012-green);
+  }
+
+  &:active {
+    background-color: var(--white-color);
+    color: var(--012-green);
+    opacity: 25%;
+  }
+}
+
+.secondary-btn {
+  padding-top: 0.9rem;
+  padding-right: 3.3rem;
+  padding-bottom: 1.1rem;
+  padding-left: 3.2rem;
+  border: 2px solid var(--white-color);
+  background-color: var(--white-color);
+  color: var(--002-green);
+  border-radius: 2.4rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.55em;
+
+  &:hover {
+    border-color: var(--light-green);
+    background-color: var(--light-green);
+  }
+
+  &:active {
+    border-color: var(--police-blue);
+    background-color: var(--police-blue);
+  }
+}

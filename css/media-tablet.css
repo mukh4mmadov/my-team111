@@ -1,0 +1,134 @@
+@media (max-width: 770px) {
+  .header-section {
+    background-image: url("../images/bg-pattern-home-2.svg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+  }
+
+  .header__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 8rem;
+  }
+
+  .header__green {
+    display: none;
+  }
+
+  .header__info {
+    gap: 0;
+    display: inline-block;
+  }
+
+  .header__description {
+    width: 457px;
+    margin-top: -20px;
+    text-align: center;
+  }
+
+  .header__title {
+    text-align: center;
+    font-size: 6.4rem;
+    line-height: 0.875;
+  }
+  /* HEADER END */
+
+  /* MAIN START */
+
+  .services {
+    background-image: url("../images/bg-pattern-home-3.svg");
+    background-repeat: no-repeat;
+    background-position: top right -100px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .services__type {
+    display: flex;
+    flex-direction: column;
+    gap: 6.4rem;
+  }
+
+  .type__text_pink {
+    position: absolute;
+    top: 840px;
+  }
+
+  .type__text_title {
+    font-size: 3.2rem;
+    line-height: 1em;
+  }
+
+  .type__text {
+    gap: 0;
+  }
+
+  /* SECTION SERVICE END */
+
+  /* COMMENT START */
+
+  .comment__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .comment__title {
+    width: 573px;
+    font-size: 3.2rem;
+    line-height: 1em;
+  }
+
+  /* COMMENT END */
+
+  /* MAIN END */
+
+  /* FOOTER START */
+
+  .wrapper__text {
+    font-size: 3.2rem;
+    line-height: 1em;
+    margin-left: 4rem;
+  }
+
+  .footer__wrapper {
+    padding: 7.6rem 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer__section {
+    background-position: bottom -23px left;
+  }
+
+  .footer__div {
+    display: flex;
+    flex-direction: column; 
+    gap: 3.2rem;
+  }
+
+  .footer__socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .footer__nav {
+    gap: 5.3rem;
+  }
+
+  .footer__addres {
+    text-align: right;
+  }
+
+  .footer__nav_address {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* FOOTER END */
+
+  /* HOME PAGE END */
+}
