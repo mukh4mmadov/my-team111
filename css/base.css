@@ -34,14 +34,14 @@ body {
   font-family: "Livvic", sans-serif;
 }
 
-/* normalize css problem fixed */
+
 h1 {
   margin: 0;
 }
 
 .container {
   width: 100%;
-  max-width: 1210px; /* it depends on you project */
+  max-width: 1210px; 
   margin-left: auto;
   margin-right: auto;
   padding-left: 50px;

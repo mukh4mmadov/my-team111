@@ -1,8 +1,3 @@
-/* SECTION SERVICES STYLES END */
-/* .main {
-}
-.main__container {
-} */
 .services {
   background-color: var(--012-green);
   padding-top: 19.8rem;
@@ -44,8 +39,7 @@
   display: flex;
   gap: 2.3rem;
 }
-/* .type__img {
-} */
+
 .type__wrapper {
   display: flex;
   flex-direction: column;
@@ -64,9 +58,6 @@
   line-height: 1.66em;
   color: var(--white-color);
 }
-/* SECTION SERVICES STYLES END */
-
-/* SECTION COMMENT STYLES START */
 
 .comment {
   background-color: var(--darkk-green);
@@ -115,8 +106,7 @@
   text-align: center;
   color: var(--white-color);
 }
-/* .comment__authors {
-} */
+
 .comment__authors_name {
   font-weight: 700;
   font-size: 1.8rem;
@@ -138,5 +128,3 @@
   margin-left: 14.4rem;
   margin-top: 3.2rem;
 }
-
-/* SECTION COMMENT STYLES END */

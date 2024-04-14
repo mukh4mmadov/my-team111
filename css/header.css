@@ -5,8 +5,7 @@
   background-repeat: no-repeat;
   background-position: -100px;
 }
-/* .header {
-} */
+
 .header__container {
   display: flex;
   justify-content: space-between;
@@ -17,16 +16,12 @@
   align-items: center;
   gap: 8rem;
 }
-/* .site-logo {
-}
-.sitenav {
-} */
+
 .sitenav__list {
   display: flex;
   gap: 4rem;
 }
-/* .sitenav_item {
-} */
+
 .sitenav__link {
   color: var(--white-color);
   font-size: 1.8rem;
@@ -41,13 +36,7 @@
     opacity: 0.6;
   }
 }
-/* .header__btn {
-}
-.primary-btn {
-} */
-/* HEADER END */
 
-/* HEADER SECTION START */
 
 .header__section {
   display: flex;
@@ -84,9 +73,7 @@
 .header__section_bg_img {
   margin-left: 752px;
 }
-/* HEADER SECTION END */
 
-/* HAMBURGER */
 .ham__nav {
   display: none;
 }

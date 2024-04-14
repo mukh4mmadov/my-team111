@@ -34,9 +34,6 @@
     font-size: 6.4rem;
     line-height: 0.875;
   }
-  /* HEADER END */
-
-  /* MAIN START */
 
   .services {
     background-image: url("../images/bg-pattern-home-3.svg");
@@ -66,10 +63,6 @@
     gap: 0;
   }
 
-  /* SECTION SERVICE END */
-
-  /* COMMENT START */
-
   .comment__list {
     display: flex;
     flex-direction: column;
@@ -80,12 +73,6 @@
     font-size: 3.2rem;
     line-height: 1em;
   }
-
-  /* COMMENT END */
-
-  /* MAIN END */
-
-  /* FOOTER START */
 
   .wrapper__text {
     font-size: 3.2rem;
@@ -105,7 +92,7 @@
 
   .footer__div {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     gap: 3.2rem;
   }
 
@@ -127,8 +114,4 @@
     display: flex;
     justify-content: space-between;
   }
-
-  /* FOOTER END */
-
-  /* HOME PAGE END */
 }

@@ -1,4 +1,3 @@
-/* TEXT AREA START */
 .input-form {
   display: flex;
   flex-direction: column;
@@ -23,10 +22,6 @@
     border-bottom-color: var(--light-green);
   }
 }
-
-/* TEXT AREA END */
-
-/* TEXT FIELD START */
 
 .input-form {
   display: flex;
@@ -60,5 +55,3 @@ label {
     border-bottom-color: var(--light-green);
   }
 }
-
-/* TEXT FIELD END */
