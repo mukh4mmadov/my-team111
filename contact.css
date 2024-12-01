@@ -36,15 +36,15 @@
   line-height: 1.5em;
   color: var(--pink-color);
 }
-/* .contact__about_list {
-} */
+
+
 .contact__about_item {
   display: flex;
   align-items: center;
   gap: 2.3rem;
 }
-/* .contact__about_img {
-} */
+
+
 .contact__about_img_text {
   font-weight: 700;
   font-size: 1.8rem;
@@ -61,8 +61,7 @@ form {
   flex-direction: column;
   align-items: flex-start;
 }
-/* .input-field {
-} */
+
 .contact__input {
   width: 540px;
 }
@@ -95,7 +94,7 @@ button {
     opacity: 0.6;
   }
 }
-/* RESPONSIVE TABLET START */
+
 
 @media (max-width: 770px) {
   .header__contact_section {
@@ -125,9 +124,7 @@ button {
   }
 }
 
-/* RESPONSIVE TABLET END */
 
-/* RESPONSIVE MOBILE START */
 
 @media (max-width: 475px) {
   .contact__wrapper {
@@ -177,4 +174,4 @@ button {
   }
 }
 
-/* RESPONSIVE MOBILE END */
+
